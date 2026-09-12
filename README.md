@@ -1,153 +1,201 @@
-## ¡Hola! 👋 Soy Stivens Guavita
+# 👋 Hola, soy Stivens Guavita
 
 <div align="center">
 
-**Full Stack Developer** 💻 | **Ingeniero en Sistemas** 🎓 | **Innovador Tecnológico** ⚡
+### 🎓 Estudiante de Ingeniería de Sistemas · 💻 Desarrollo de Software · 🚀 Construyendo proyectos reales
 
----
-
-![](https://komarev.com/ghpvc/?username=StivensGuavita&style=flat-square&color=blue)
+<p>
+  <a href="https://github.com/StivensGuavita">
+    <img src="https://komarev.com/ghpvc/?username=StivensGuavita&style=for-the-badge&color=0e75b6&label=VISITAS+AL+PERFIL" alt="Visitas al perfil"/>
+  </a>
+</p>
 
 </div>
 
 ---
 
-## 🚀 Acerca de mí
+## 🧑‍💻 Sobre mí
 
-Desarrollador apasionado con experiencia en la creación de soluciones web completas y escalables. Especializado en desarrollo Full Stack, con un enfoque en arquitectura limpia y mejores prácticas de programación. He trabajado en proyectos educativos y del sector hotelero, entregando productos de alta calidad que generan impacto real.
+Soy **estudiante de Ingeniería de Sistemas** enfocado en aprender desarrollo de software mediante la construcción de proyectos reales.
 
-- 💼 Experiencia en desarrollo web y aplicaciones empresariales
-- 🎯 Enfoque en código limpio, mantenible y escalable
-- 🤝 Especialista en trabajo colaborativo y metodologías ágiles
-- 🔍 Apasionado por resolver problemas complejos
+Actualmente estoy fortaleciendo mis conocimientos en **Java, Programación Orientada a Objetos, estructuras de datos, desarrollo web, bases de datos y arquitectura de aplicaciones**.
 
----
+Me interesa especialmente entender **cómo funcionan las cosas internamente**, no solamente hacer que el código funcione.
 
-## 💻 Lenguajes de Programación
-
-<div align="center">
-
-| Frontend | Backend | Otros |
-|----------|---------|-------|
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) | ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
-
-</div>
+* 🎓 Estudiante de Ingeniería de Sistemas
+* 💻 Enfocado en desarrollo de software y aplicaciones web
+* ☕ Aprendiendo Java y Programación Orientada a Objetos
+* 🌐 Desarrollando aplicaciones con React, Node.js y PHP
+* 🗄️ Trabajando con bases de datos relacionales
+* 🧩 Interesado en arquitectura, buenas prácticas y diseño de software
+* 🚀 Aprendiendo mediante proyectos y resolución de problemas
 
 ---
 
-## 🛠️ Tecnologías y Frameworks
+## 🛠️ Tecnologías
 
-<div align="center">
+### Lenguajes
 
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,javascript,php,python,cpp,html,css" />
+</p>
 
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+### Desarrollo Web
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express" />
+</p>
 
 ### Bases de Datos
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### DevOps & Herramientas
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
+</p>
+
+### Herramientas
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman" />
+</p>
+
+> **Actualmente profundizando:** Java, POO, estructuras de datos, SQL, desarrollo backend y arquitectura de aplicaciones.
+
+---
+
+## 🚀 Proyectos destacados
+
+### 🏨 Hotel Hospedaje Camelias
+
+Sistema web orientado a la **gestión de reservas y operación hotelera**.
+
+El proyecto busca centralizar procesos que tradicionalmente pueden realizarse de forma manual, facilitando la gestión de habitaciones, reservas, huéspedes e inventario.
+
+**Tecnologías:**
+
+`React` · `Node.js` · `Express.js` · `MySQL` · `Chart.js`
+
+**Conceptos aplicados:**
+
+* Gestión de reservas
+* Disponibilidad de habitaciones
+* Gestión de huéspedes
+* Inventario
+* Roles y permisos
+* Consultas y persistencia de datos
+* Arquitectura frontend/backend
+* Modelado de bases de datos
+
+---
+
+### ☕ Proyectos Java — Programación Orientada a Objetos
+
+Colección de proyectos y ejercicios desarrollados para fortalecer los fundamentos de **Java y POO**.
+
+**Conceptos trabajados:**
+
+`Clases` · `Objetos` · `Encapsulamiento` · `Enums` · `ArrayList` · `Excepciones` · `Interfaces` · `Herencia`
+
+Uno de los proyectos en desarrollo es un sistema de gestión hospitalaria con separación de responsabilidades mediante capas como:
+
+`Model` → `Repository` → `Service` → `Controller`
+
+---
+
+### 🗄️ Proyectos de Bases de Datos
+
+Ejercicios y proyectos enfocados en el diseño y desarrollo de bases de datos relacionales.
+
+**Temas trabajados:**
+
+* Modelo entidad-relación
+* Modelo relacional
+* Normalización
+* Tercera Forma Normal (3FN)
+* SQL
+* Relaciones entre entidades
+* Consultas y operaciones CRUD
+* MySQL / MariaDB
+
+---
+
+## 📚 Actualmente aprendiendo
+
+```text
+Java
+ ├── Programación Orientada a Objetos
+ ├── Colecciones
+ ├── Excepciones
+ ├── Interfaces
+ └── Estructuras de datos
+
+Desarrollo Web
+ ├── HTML / CSS / JavaScript
+ ├── React
+ ├── Node.js
+ ├── Express.js
+ └── APIs REST
+
+Bases de Datos
+ ├── SQL
+ ├── Modelado
+ ├── Normalización
+ └── MySQL / MariaDB
+
+Ingeniería de Software
+ ├── Arquitectura
+ ├── UML
+ ├── Scrum
+ └── Buenas prácticas
+```
+
+---
+
+## 🎯 Mi enfoque
+
+> **Aprender → construir → equivocarme → entender → mejorar**
+
+No busco únicamente acumular tecnologías. Mi objetivo es desarrollar una base sólida de **ingeniería de software** que me permita construir aplicaciones mantenibles y resolver problemas cada vez más complejos.
+
+---
+
+## 📊 GitHub
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=StivensGuavita&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=StivensGuavita&layout=compact&hide_border=true&langs_count=8" />
 
 </div>
 
 ---
 
-## 🏆 Proyectos Destacados
+## 🔥 En qué estoy trabajando
 
-### 📚 Proyectos del Instituto
-
-<table>
-  <tr>
-    <td width="50%">
-      <h4>🎓 Sistema de Gestión Académica</h4>
-      <p>Plataforma web integral para gestión de calificaciones, asistencia y reportes. Mejora la comunicación entre docentes y estudiantes.</p>
-      <b>Tech Stack:</b> React • Node.js • MongoDB • JWT
-    </td>
-    <td width="50%">
-      <h4>👨‍🎓 Portal de Estudiantes</h4>
-      <p>Aplicación web con acceso a calificaciones, horarios y tareas. Incluye autenticación segura y notificaciones en tiempo real.</p>
-      <b>Tech Stack:</b> HTML5 • CSS3 • JavaScript • PHP • MySQL
-    </td>
-  </tr>
-</table>
+* 🧠 Fortaleciendo Java y Programación Orientada a Objetos
+* 🏗️ Mejorando la arquitectura de mis proyectos
+* 🗄️ Profundizando en bases de datos y SQL
+* 🌐 Desarrollando aplicaciones web completas
+* 📐 Aprendiendo estructuras de datos y algoritmos
+* 🚀 Construyendo proyectos que puedan formar parte de mi portafolio
 
 ---
 
-### 🏨 Proyectos del Hotel
-
-<table>
-  <tr>
-    <td width="50%">
-      <h4>🛏️ Sistema de Reservas Hotelero</h4>
-      <p>Plataforma completa de reservas con consulta de disponibilidad, gestión de pagos y panel administrativo para ingresos.</p>
-      <b>Tech Stack:</b> React • Node.js • PostgreSQL • Stripe
-    </td>
-    <td width="50%">
-      <h4>📦 Gestión de Inventario</h4>
-      <p>Sistema interno para gestión de inventario, estado de habitaciones y asignación de tareas. Reportes en tiempo real.</p>
-      <b>Tech Stack:</b> Express • JavaScript • MySQL • Analytics
-    </td>
-  </tr>
-  <tr>
-    <td width="100%">
-      <h4>📱 App Móvil de Servicios</h4>
-      <p>Aplicación móvil para huéspedes: solicitar servicios, reportar problemas, acceder a menú y realizar pedidos.</p>
-      <b>Tech Stack:</b> React Native • Node.js • MongoDB • Socket.io
-    </td>
-  </tr>
-</table>
-
----
-
-## 📊 Competencias Clave
+## 📫 Contacto
 
 <div align="center">
 
-| Desarrollo | Metodología | Soft Skills |
-|------------|-------------|------------|
-| ✅ Full Stack Web Development | ✅ Metodología Ágil/Scrum | ✅ Trabajo en Equipo |
-| ✅ API REST & Microservicios | ✅ Clean Code | ✅ Comunicación Efectiva |
-| ✅ Base de Datos Relacionales | ✅ Testing & QA | ✅ Resolución de Problemas |
-| ✅ Desarrollo Frontend | ✅ Control de Versiones | ✅ Liderazgo |
-
-</div>
-
----
-
-## 🌱 Actualmente estoy
-
-<div align="center">
-
-🔭 &nbsp; Trabajando en proyectos innovadores de desarrollo web  
-🌱 &nbsp; Mejorando mis habilidades en arquitectura de software  
-👯 &nbsp; Buscando colaborar en proyectos desafiantes  
-💬 &nbsp; Disponible para consultas sobre desarrollo web  
-⚡ &nbsp; Fun fact: Mi mejor idea llega mientras tomo café ☕
-
-</div>
-
----
-
-## 📫 Cómo contactarme
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-StivensGuavita-black?style=for-the-badge&logo=github)](https://github.com/StivensGuavita)
-[![Email](https://img.shields.io/badge/Email-Contactame-red?style=for-the-badge&logo=gmail)](mailto:guavitamonzongesmanstivens@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-StivensGuavita-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/stivensguavita)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Mi%20Trabajo-purple?style=for-the-badge&logo=web)](https://github.com/StivensGuavita/StivensGuavita/blob/main/index.html)
+<a href="https://github.com/StivensGuavita">
+  <img src="https://img.shields.io/badge/GitHub-StivensGuavita-181717?style=for-the-badge&logo=github" />
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/stivensguavita">
+  <img src="https://img.shields.io/badge/LinkedIn-StivensGuavita-0A66C2?style=for-the-badge&logo=linkedin" />
+</a>
+&nbsp;
+<a href="mailto:guavitamonzongesmanstivens@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contacto-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
 
 </div>
 
@@ -155,8 +203,8 @@ Desarrollador apasionado con experiencia en la creación de soluciones web compl
 
 <div align="center">
 
-### ⭐ Si te gusta mi trabajo, considera dejar una estrella en mis repositorios
+### 💡 Siempre hay algo nuevo que aprender.
 
-**Desarrollado con ❤️ por Stivens Guavita**
+**Gracias por visitar mi perfil.**
 
 </div>
