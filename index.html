@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stivens Guavita - Desarrollador Full Stack</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            font-size: 0.95em;
+        }
+
+        .contact-info a {
+            color: #fff;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .contact-info a:hover {
+            opacity: 0.7;
+        }
+
+        main {
+            padding: 60px 40px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #667eea;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .skill-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        .projects-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .project-card {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 30px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .project-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+            transform: translateY(-5px);
+        }
+
+        .project-card h3 {
+            color: #667eea;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .project-card p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .project-type {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .project-type.instituto {
+            background: #28a745;
+        }
+
+        .project-type.hotel {
+            background: #fd7e14;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .tech-tag {
+            background: #e9ecef;
+            color: #667eea;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+
+        footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            color: #666;
+            border-top: 2px solid #e9ecef;
+        }
+
+        .about-text {
+            color: #555;
+            line-height: 1.8;
+            font-size: 1.05em;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1.1em;
+            }
+
+            main {
+                padding: 30px 20px;
+            }
+
+            section h2 {
+                font-size: 1.6em;
+            }
+
+            .contact-info {
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>👨‍💻 Stivens Guavita</h1>
+            <p>Desarrollador Full Stack | Ingeniero en Sistemas</p>
+            <div class="contact-info">
+                <a href="https://github.com/StivensGuavita">GitHub</a>
+                <a href="mailto:tu-email@gmail.com">Email</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </header>
+
+        <main>
+            <!-- About Section -->
+            <section>
+                <h2>👋 Acerca de mí</h2>
+                <p class="about-text">
+                    Soy un desarrollador apasionado por crear soluciones tecnológicas innovadoras y funcionales. 
+                    Con experiencia en desarrollo web full stack, he trabajado en proyectos desafiantes tanto en 
+                    el ámbito educativo como en la industria hotelera. Me caracterizo por mi capacidad de adaptación, 
+                    trabajo en equipo y compromiso con la calidad del código.
+                </p>
+            </section>
+
+            <!-- Languages Section -->
+            <section>
+                <h2>💻 Lenguajes de Programación</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">JavaScript</div>
+                    <div class="skill-card">Python</div>
+                    <div class="skill-card">Java</div>
+                    <div class="skill-card">SQL</div>
+                    <div class="skill-card">HTML5</div>
+                    <div class="skill-card">CSS3</div>
+                    <div class="skill-card">C++</div>
+                    <div class="skill-card">PHP</div>
+                </div>
+            </section>
+
+            <!-- Technologies Section -->
+            <section>
+                <h2>🛠️ Tecnologías y Frameworks</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">React</div>
+                    <div class="skill-card">Node.js</div>
+                    <div class="skill-card">Express</div>
+                    <div class="skill-card">MongoDB</div>
+                    <div class="skill-card">MySQL</div>
+                    <div class="skill-card">PostgreSQL</div>
+                    <div class="skill-card">Docker</div>
+                    <div class="skill-card">Git</div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section>
+                <h2>🚀 Proyectos Destacados</h2>
+                <div class="projects-container">
+                    <!-- Instituto Project 1 -->
+                    <div class="project-card">
+                        <span class="project-type instituto">Proyecto Instituto</span>
+                        <h3>Sistema de Gestión Académica</h3>
+                        <p>
+                            Plataforma web para la gestión integral de calificaciones, asistencia y reportes 
+                            académicos. Diseñado para facilitar la administración educativa y mejorar la 
+                            comunicación entre docentes y estudiantes.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+
+                    <!-- Instituto Project 2 -->
+                    <div class="project-card">
+                        <span class="project-type instituto">Proyecto Instituto</span>
+                        <h3>Portal de Estudiantes</h3>
+                        <p>
+                            Aplicación web que permite a los estudiantes acceder a sus calificaciones, 
+                            horarios, tareas y comunicarse directamente con los docentes. Implementa 
+                            autenticación segura y notificaciones en tiempo real.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+
+                    <!-- Hotel Project 1 -->
+                    <div class="project-card">
+                        <span class="project-type hotel">Proyecto Hotel</span>
+                        <h3>Sistema de Reservas Hotelero</h3>
+                        <p>
+                            Plataforma completa de reservas que permite a los clientes consultar disponibilidad, 
+                            hacer reservas, gestionar pagos y recibir confirmaciones. Incluye panel administrativo 
+                            para la gestión de habitaciones e ingresos.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Stripe API</span>
+                        </div>
+                    </div>
+
+                    <!-- Hotel Project 2 -->
+                    <div class="project-card">
+                        <span class="project-type hotel">Proyecto Hotel</span>
+                        <h3>Gestión de Inventario y Housekeeping</h3>
+                        <p>
+                            Sistema interno para la gestión del inventario de la casa, seguimiento del estado 
+                            de habitaciones y asignación de tareas a personal de limpieza. Proporciona reportes 
+                            en tiempo real del estado operativo del hotel.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Dashboard</span>
+                        </div>
+                    </div>
+
+                    <!-- Hotel Project 3 -->
+                    <div class="project-card">
+                        <span class="project-type hotel">Proyecto Hotel</span>
+                        <h3>App Móvil de Servicios Hoteleros</h3>
+                        <p>
+                            Aplicación móvil que permite a los huéspedes solicitar servicios adicionales, 
+                            reportar problemas en la habitación, acceder al menú del restaurante y realizar 
+                            pedidos desde su dispositivo.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Socket.io</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Summary -->
+            <section>
+                <h2>📊 Competencias Clave</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">Desarrollo Web</div>
+                    <div class="skill-card">Base de Datos</div>
+                    <div class="skill-card">API REST</div>
+                    <div class="skill-card">Control de Versiones</div>
+                    <div class="skill-card">Metodología Ágil</div>
+                    <div class="skill-card">Resolución de Problemas</div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Stivens Guavita. Todos los derechos reservados.</p>
+            <p>Desarrollado con ❤️ y pasión por la tecnología</p>
+        </footer>
+    </div>
+</body>
+</html>
